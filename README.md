@@ -1,10 +1,8 @@
 # I2C SCANNER ATMEGA328P
 
-I2C protocol is a popular communication protocol used to communicate between microcontrollers and peripheral devices. The I2C protocol uses two wires for communication: SDA (Serial Data Line) and SCL (Serial Clock Line).
+I2C protocol is a popular communication protocol used to communicate between microcontrollers and peripheral devices. 
 
 Each I2C device has a unique 7-bit or 10-bit address. For most common applications, the 7-bit addressing scheme is used.
-
-The I2C scanner is a simple program that scans each I2C address and checks if a device is present at that address. The scanner program can be used to identify the I2C address of a device connected to the I2C bus.
 
 So in here i scan addresses from 0x08 to 0x77 and print the address of the device connected to the I2C bus.
 
